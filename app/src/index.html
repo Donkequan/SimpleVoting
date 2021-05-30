@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Voting DApp</title>
+</head>
+<body class="container">
+<h1>A Simple Voting Application</h1>
+<div id="address"></div>
+<div>
+  <table>
+    <thead>
+    <tr>
+      <th>Candidate</th>
+      <th>Votes</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+      <td>111</td>
+      <td id="c1"></td>
+    </tr>
+    <tr>
+      <td>222</td>
+      <td id="c2"></td>
+    </tr>
+    <tr>
+      <td>333</td>
+      <td id="c3"></td>
+    </tr>
+    </tbody>
+  </table>
+  <div id="msg"></div>
+</div>
+<input type="text" id="candidate" />
+<a href="#" onclick="voteForCandidate()">Vote</a>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/web3@1.3.6/dist/web3.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js"></script>
+<script src="./index.js"></script>
+</html>
